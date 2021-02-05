@@ -1,0 +1,89 @@
+
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>RegistrationForm_v1 by Colorlib</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="css/style.css">
+		<style type="text/css">
+			a{
+				color: black;}
+		</style>
+
+		<script>
+
+			
+
+			function info() {
+				
+				var user = document.getElementById("username").value;
+				var pwd = document.getElementById("password").value;
+
+				
+				if(user=="admin" && pwd=="pass"){
+
+						window.open('sketo02/home.html');
+
+				}else{
+
+						document.write("try again");
+
+				}
+				
+				}
+
+</script>
+	</head>
+
+	<body>
+
+
+
+
+	
+
+
+		<div class="wrapper" style="background-image: url('loginwallpaper.jpg');">
+			<div class="inner">
+				<div class="image-holder">
+					<img src="jksportslogo.png" alt="">
+				</div>
+				<form method="post">
+					<h3>Login Form</h3>
+					<div class="form-wrapper">
+						<input id="username" type="text" placeholder="Username" class="form-control" required="">
+						<i class="zmdi zmdi-account"></i>
+					</div>
+					<div class="form-wrapper">
+						<input id="password" type="password" placeholder="Password" class="form-control" required="">
+						<i class="zmdi zmdi-lock"></i>
+					</div>
+					<div class="form-wrapper">
+						<a href="">Forget Password.</a>
+					</div>
+					
+					<button type="button" onclick="info()">
+						<a style="text-decoration: none;color: white;">Login
+						<i class="zmdi zmdi-arrow-right"></i>
+						</a>
+					</button>
+					
+					<button>
+						<a style="text-decoration: none;color: white;" href="signup.html">Sign Up 
+						<i class="zmdi zmdi-arrow-right"></i>
+						</a>
+					</button>
+				</form>
+			</div>
+		</div>
+		
+	</body>
+</html>

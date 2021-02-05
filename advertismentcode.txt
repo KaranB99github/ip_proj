@@ -1,0 +1,21 @@
+<h6>  ZARA - DIESEL CLOTHING <br> <i> ADVERTISEMENTS </br> </i> </h6> 
+<div class="btn1"><form>
+<input type="button" value="Visit ZARA" onclick="window.location.href='http://www.zara.com'" />
+</form> </div>
+
+<div class="btn2"><form>
+<input type="button" value="Visit DIESEL CLOTHING" onclick="window.location.href='http://global.diesel.com/homepage?origin=NOUS'" />
+</form> </div>
+
+<video width="600" height="300" controls autoplay loop>
+  <source src="video/Zara man.mp4" type="video/mp4">
+  <source src="video/Zara man.ogg" type="video/ogg">
+  Your browser does not support HTML5 video.
+</video>
+
+<video width="600" height="300" controls autoplay loop> 
+  <source src="video/Diesel clothing.mp4" type="video/mp4">
+  <source src="video/Diesel clothing.ogg" type="video/ogg">
+  
+    Your browser does not support HTML5 video.
+</video>
